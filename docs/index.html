@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PSBB: faster console downloads</title>
+<meta name="description" content="PSBB is a free Windows app that speeds up PS5, PS4 and PS3 game downloads by fetching them over many connections, and can save a game on a PC to install later.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="currentColor"/><path d="M12 6v11M7.5 12.5 12 17l4.5-4.5" stroke="var(--bg)" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>PSBB</a>
+    <nav class="nav-links">
+      <a href="#how" class="hide-sm">How it works</a>
+      <a href="games.html">Game list</a>
+      <a href="#privacy" class="hide-sm">Privacy</a>
+    </nav>
+    <a class="button" href="https://github.com/AIMI-SAYO/psbb/releases/latest/download/PSBB.exe">Download</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">For PS5, PS4 and PS3</p>
+      <h1>Downloads at the speed you pay for.</h1>
+      <p class="lead">Consoles download games over a couple of connections. PSBB uses many at once, on the PC you already have.</p>
+      <div class="actions">
+        <a class="button" href="https://github.com/AIMI-SAYO/psbb/releases/latest/download/PSBB.exe">Download for Windows</a>
+        <a class="button quiet" href="games.html">Browse the game list</a>
+      </div>
+      <p class="fine">Free. Version <span id="ver">1.0.0</span>. Windows 10 and 11. Nothing to install.</p>
+      <div class="shot"><img src="assets/app.png" width="1280" height="720" alt="The PSBB window during a download, showing speed, the game, live connections and the setup steps"></div>
+    </div>
+  </section>
+
+  <section class="block soft">
+    <div class="wrap">
+      <h2>Fast, and steady.</h2>
+      <p class="section-lead">Tested on a 1 Gbps line, downloading a 100 GB game.</p>
+      <div class="figures">
+        <div class="figure"><strong>~600</strong><span>Mbps, console on its own</span></div>
+        <div class="figure"><strong>~900</strong><span>Mbps, through PSBB</span></div>
+        <div class="figure"><strong>0</strong><span>changes on the console besides one setting</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="wrap">
+      <h2>Built for big downloads.</h2>
+      <p class="section-lead">Everything happens on the PC. The console just downloads as usual.</p>
+      <div class="grid">
+        <div class="tile"><h3>Many connections</h3><p>The game is split into pieces and fetched from the fastest servers at once, then handed to the console in order.</p></div>
+        <div class="tile"><h3>Recovers on its own</h3><p>A slow or stalled server is dropped and its piece continues elsewhere, from the last byte received.</p></div>
+        <div class="tile"><h3>Slow lines too</h3><p>On slower internet it finds the number of connections that works best, and keeps checking.</p></div>
+        <div class="tile"><h3>Save now, install later</h3><p>Save a whole game on a PC, anywhere. At home, the console installs it from the PC at full network speed.</p></div>
+        <div class="tile"><h3>A shared game list</h3><p>Games people download appear in a public list, ready to save on a laptop before you get home.</p></div>
+        <div class="tile"><h3>Works with other tools</h3><p>Copy every file's link for any download manager. Files saved that way are used the same way.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block soft" id="how">
+    <div class="wrap split">
+      <div>
+        <h2>Set up in a minute.</h2>
+        <p class="section-lead">Both devices on the same home network. A cable on each is best.</p>
+        <a class="button" href="https://github.com/AIMI-SAYO/psbb/releases/latest/download/PSBB.exe">Download for Windows</a>
+      </div>
+      <ul class="list">
+        <li><b>1. Open PSBB on your PC</b>It shows an address and a port. If Windows asks, allow it on your network.</li>
+        <li><b>2. Set the console's proxy</b>In the console's network settings, set Proxy Server to Use and enter that address and port. The app shows the steps for PS5, PS4 and PS3.</li>
+        <li><b>3. Start the download</b>Keep the app open. It shows the game, the speed and every server in use.</li>
+        <li><b>4. When you finish</b>Set Proxy Server back to Do Not Use on the console.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block" id="privacy">
+    <div class="wrap split">
+      <div>
+        <h2>Private by design.</h2>
+        <p class="section-lead">Your downloads stay between your console, your PC and PlayStation's servers.</p>
+      </div>
+      <ul class="list">
+        <li><b>Only your home network</b>The app only accepts devices on your own network, and passes everything except game downloads through untouched.</li>
+        <li><b>What the game list receives</b>When sharing is on, only the address of the game file on PlayStation's download servers. Never your IP address, console, account or anything about you. Turn it off in About.</li>
+        <li><b>Nothing to sign in to</b>No account, no tracking, no ads. The app checks this site for updates and the game list, and nothing else.</li>
+        <li><b>Your games stay yours</b>Game files are encrypted by PlayStation. A game only installs on a console whose account owns it.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav><a href="games.html">Game list</a><a href="#privacy">Privacy</a><a href="https://github.com/AIMI-SAYO/psbb/releases">Releases</a><a href="https://github.com/AIMI-SAYO/psbb/blob/main/LICENSE">License</a></nav>
+    <div>Copyright 2026 AimiSayo. All rights reserved.</div>
+    <div>PSBB is an independent tool. It is not affiliated with, endorsed by or sponsored by Sony Interactive Entertainment. PlayStation, PS5, PS4 and PS3 are trademarks of Sony Interactive Entertainment Inc.</div>
+  </div>
+</footer>
+<script>
+fetch("version.json").then(r => r.json()).then(v => { if (v.version) document.getElementById("ver").textContent = v.version; }).catch(() => {});
+</script>
+</body>
+</html>

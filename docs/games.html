@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game list | PSBB</title>
+<meta name="description" content="Games people have downloaded with PSBB, with their file links, ready to save on a PC.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="./"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="currentColor"/><path d="M12 6v11M7.5 12.5 12 17l4.5-4.5" stroke="var(--bg)" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>PSBB</a>
+    <nav class="nav-links">
+      <a href="./#how" class="hide-sm">How it works</a>
+      <a href="games.html" style="color:var(--text)">Game list</a>
+      <a href="./#privacy" class="hide-sm">Privacy</a>
+    </nav>
+    <a class="button" href="https://github.com/AIMI-SAYO/psbb/releases/latest/download/PSBB.exe">Download</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="page-head">
+    <h1>Game list</h1>
+    <p>Games people have downloaded with PSBB. In the app, open Game list and choose Save to PC to save one anywhere, then install it at home from the PC. You can also copy the links into any download manager.</p>
+  </div>
+  <div class="toolbar">
+    <input class="search" id="q" type="search" placeholder="Search by name or ID" autocomplete="off">
+    <span class="count" id="count"></span>
+  </div>
+  <p class="notice">Game files are encrypted by PlayStation. A game only installs on a console whose account owns it.</p>
+  <div class="games" id="games"><div class="empty">Loading the list...</div></div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <nav><a href="./">Home</a><a href="./#privacy">Privacy</a><a href="https://github.com/AIMI-SAYO/psbb/releases">Releases</a><a href="https://github.com/AIMI-SAYO/psbb/blob/main/LICENSE">License</a></nav>
+    <div>Copyright 2026 AimiSayo. All rights reserved.</div>
+    <div>PSBB is an independent tool. It is not affiliated with, endorsed by or sponsored by Sony Interactive Entertainment. PlayStation, PS5, PS4 and PS3 are trademarks of Sony Interactive Entertainment Inc.</div>
+  </div>
+</footer>
+<script src="games.js"></script>
+</body>
+</html>
