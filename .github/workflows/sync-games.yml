@@ -21,8 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Fetch the live list
+        env:
+          # The service's direct address, kept as a secret. The public address
+          # sits behind Cloudflare's bot protection, which blocks this runner.
+          LIST_SOURCE: ${{ secrets.LIST_SOURCE }}
         run: |
-          curl -fsS --max-time 30 https://psbb-api.aimisayo.com/games.json -o /tmp/games.json
+          curl -fsS --max-time 30 "$LIST_SOURCE" -o /tmp/games.json
           # Only accept a well-formed list whose files are on PlayStation's download servers.
           jq -e '
             (.games | type == "array") and
