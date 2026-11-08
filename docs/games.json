@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-08T04:18:59.769Z",
+ "updated": "2026-11-08",
  "games": [
+  {
+   "contentId": "EP4361-PPSA16214_00-0000000000INDIKA",
+   "titleId": "PPSA16214",
+   "name": "INDIKA",
+   "platform": "PS5",
+   "region": "EU",
+   "kind": "Game",
+   "version": "",
+   "host": "gst.prod.dl.playstation.net",
+   "path": "/gst/prod/00/PPSA16214_00/app/pkg/11/f_d5e82bfe802696577c751ef3dda9a152e5a7ea0c1bf91d5279c9e89884f5d7a0/EP4361-PPSA16214_00-0000000000INDIKA_0.pkg",
+   "parts": 6,
+   "partSize": 4294967296,
+   "totalSize": 22079143936,
+   "added": "2026-11-08",
+   "updated": "2026-11-08"
+  },
   {
    "contentId": "UP9000-PPSA04072_00-FORBIDDENWESTPS5",
    "titleId": "PPSA04072",
@@ -14,8 +30,8 @@
    "parts": 24,
    "partSize": 4294967296,
    "totalSize": 102592610304,
-   "added": "2026-11-08T04:18:59.769Z",
-   "updated": "2026-11-08T04:18:59.769Z"
+   "added": "2026-11-08",
+   "updated": "2026-11-08"
   }
  ]
 }
