@@ -1,10 +1,10 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "download": "https://github.com/AIMI-SAYO/psbb/releases/latest/download/PSBB.exe",
-  "notes": "Now on Android too.",
+  "notes": "Save games to USB drives and SSDs on Android.",
   "android": {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "download": "https://github.com/AIMI-SAYO/psbb/releases/latest/download/PSBB.apk",
-    "notes": "First Android release."
+    "notes": "Save games to a USB drive or external SSD."
   }
 }
