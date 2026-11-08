@@ -1,1 +1,21 @@
-{"updated":"2026-11-08T04:18:59.769Z","games":[{"contentId":"UP9000-PPSA04072_00-FORBIDDENWESTPS5","titleId":"PPSA04072","name":"Horizon Forbidden West™","platform":"PS5","region":"US","kind":"Game","version":"","host":"gst.prod.dl.playstation.net","path":"/gst/prod/00/PPSA04072_00/app/pkg/38/f_12969c9ef950d8695dacdb7002c76810aa13383d9f26559b2b988abccfdbcccd/UP9000-PPSA04072_00-FORBIDDENWESTPS5_0.pkg","parts":24,"partSize":4294967296,"totalSize":102592610304,"added":"2026-11-08T04:18:59.769Z","updated":"2026-11-08T04:18:59.769Z"}]}
+{
+ "updated": "2026-11-08T04:18:59.769Z",
+ "games": [
+  {
+   "contentId": "UP9000-PPSA04072_00-FORBIDDENWESTPS5",
+   "titleId": "PPSA04072",
+   "name": "Horizon Forbidden West™",
+   "platform": "PS5",
+   "region": "US",
+   "kind": "Game",
+   "version": "",
+   "host": "gst.prod.dl.playstation.net",
+   "path": "/gst/prod/00/PPSA04072_00/app/pkg/38/f_12969c9ef950d8695dacdb7002c76810aa13383d9f26559b2b988abccfdbcccd/UP9000-PPSA04072_00-FORBIDDENWESTPS5_0.pkg",
+   "parts": 24,
+   "partSize": 4294967296,
+   "totalSize": 102592610304,
+   "added": "2026-11-08T04:18:59.769Z",
+   "updated": "2026-11-08T04:18:59.769Z"
+  }
+ ]
+}
