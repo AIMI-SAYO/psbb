@@ -1,6 +1,22 @@
 {
- "updated": "2026-11-08",
+ "updated": "2026-11-10",
  "games": [
+  {
+   "contentId": "EP1004-PPSA01547_00-GRANDTHEFTAUTO00",
+   "titleId": "PPSA01547",
+   "name": "GRANDTHEFTAUTO00",
+   "platform": "PS5",
+   "region": "EU",
+   "kind": "Game",
+   "version": "",
+   "host": "gst.prod.dl.playstation.net",
+   "path": "/gst/prod/00/PPSA01547_00/app/pkg/13/f_d918060c4bd9613203567db42557b59e39928edd7c0aa20a129336913acd7ca8/EP1004-PPSA01547_00-GRANDTHEFTAUTO00_0.pkg",
+   "parts": 52,
+   "partSize": 4294967296,
+   "totalSize": 222929747968,
+   "added": "2026-11-10",
+   "updated": "2026-11-10"
+  },
   {
    "contentId": "EP4361-PPSA16214_00-0000000000INDIKA",
    "titleId": "PPSA16214",
